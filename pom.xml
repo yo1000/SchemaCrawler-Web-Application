@@ -267,7 +267,7 @@
         <executions>
           <execution>
             <goals>
-              <goal>toolchain</goal>
+              <goal>select-jdk-toolchain</goal>
             </goals>
           </execution>
         </executions>
@@ -275,7 +275,6 @@
           <toolchains>
             <jdk>
               <version>21</version>
-              <vendor>temurin</vendor>
             </jdk>
           </toolchains>
         </configuration>
